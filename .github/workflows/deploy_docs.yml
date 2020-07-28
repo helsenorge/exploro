@@ -31,4 +31,4 @@ jobs:
         run: |
           git config --global user.name "Helsenorge doc"
           git config --global user.email "doc@tor.com"
-          npx gatsby build --prefix-paths && npx gh-pages -d public -r https://${{ secrets.GH_TOKEN }}@github.com/helsenorge/structor.git
+          npx gatsby build --prefix-paths && npx gh-pages -d public -r https://${{ secrets.GH_TOKEN }}@github.com/helsenorge/exploro.git
